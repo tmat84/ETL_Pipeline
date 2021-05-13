@@ -6,7 +6,7 @@ The pipeline will be scheduled to run monthly using Airflow.
 
 The postgresDB and Airflow are installed locally using docker.
  
-Generate your access token here: https://calendarific.com
-Set up postgres database using docker here: https://www.youtube.com/watch?v=aHbE3pTyG-Q&t=177s
-Set network for postgres inside docker here: https://www.youtube.com/watch?v=lNsJRM9ga-s&t=750s
+Generate your access token here: https://calendarific.com  
+Set up postgres database using docker here: https://www.youtube.com/watch?v=aHbE3pTyG-Q&t=177s  
+Set network for postgres inside docker here: https://www.youtube.com/watch?v=lNsJRM9ga-s&t=750s  
 Set airflow using docker here: https://www.youtube.com/watch?v=aTaytcxy2Ck
