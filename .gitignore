@@ -1,0 +1,6 @@
+database.ini
+*.pyc
+__init__.py
+*.json
+training/*
+ETL_workspace*
