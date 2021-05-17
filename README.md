@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/tmat84/ETL_Pipeline.svg?branch=main)](https://travis-ci.com/tmat84/ETL_Pipeline)
+[![codecov](https://codecov.io/gh/tmat84/ETL_Pipeline/branch/main/graph/badge.svg)](https://codecov.io/gh/tmat84/ETL_Pipeline)
+
 The small ETL project inspired by [Karolina Sowinska](https://www.youtube.com/channel/UCAxnMry1lETl47xQWABvH7g)
 
 This is a simple data pipeline that downloads holiday data from https://calendarific.com website on a defined month and country and saves that data in a postgress database.
