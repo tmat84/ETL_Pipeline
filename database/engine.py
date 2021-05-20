@@ -4,7 +4,7 @@ from contextlib import contextmanager
 
 @contextmanager
 def postgresEngine(user="postgres",password="password",host="localhost",database="etl_holiday"):
-    """Produces the postgres engine and connect to postgres database 
+    """Produces the postgres engine and connect to postgres database.
         
         Args:
         user (str): the username used to authenticate.
@@ -16,7 +16,10 @@ def postgresEngine(user="postgres",password="password",host="localhost",database
         Object: The postgres engine and connection.
     """
     # set up database connection
-    engine = create_engine("postgresql://{}:{}@{}/{}".format(user,password,host,database))
+    engine = create_engine("postgresql://{}:{}@{}/{}".format(user,
+                                                            password,
+                                                            host,
+                                                            database))
     try:
         connect = engine.connect()
         yield engine, connect

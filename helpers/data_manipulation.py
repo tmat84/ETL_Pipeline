@@ -9,14 +9,12 @@ def custom_json_to_df(data):
         Returns:
         DataFrame: The df with columns:"date", "name",
          "holiday_type","country","description
-
     """
     name = []
     description = []
     country = []
     date = []
     holidayType = []
-
 
     for holiday in data["response"]["holidays"]:
         name.append(holiday["name"])

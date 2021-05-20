@@ -10,6 +10,5 @@ def check_if_valid_data(df):
         """
 
         if df.empty:
-                print("No data downloaded. Finishing execution")
                 return False
         return True
