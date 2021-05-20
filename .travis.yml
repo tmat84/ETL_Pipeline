@@ -1,7 +1,6 @@
 language: python
 python:
--
-"3.7"
+-"3.7"
 install:
 - pip install -e .
 - pip install pytest-cov codecov # Install packages for code coverage report
@@ -9,3 +8,4 @@ script:
 - pytest tests
 after_success:
 - codecov
+- bash <(curl -s https://codecov.io/bash)
