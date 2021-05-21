@@ -1,7 +1,6 @@
 pandas>=1.2.4
 pg8000>=1.19.4
 pymongo>=3.11.4
-pyodbc>=4.0.30
 requests>=2.25.1
 sqlalchemy>=1.4.7
 pytest>=5.0.1
