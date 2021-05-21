@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Labor Day / May Day",
+    "description": "Labor Day (Święto Pracy), also known as May 1 (1 Maja), is a national public holiday in Poland every year.",
+    "country": "Poland",
+    "date": "2021-05-01",
+    "holiday_type": "National holiday"
+  },
+  {
+    "name": "Day of the Flag",
+    "description": "Day of the Flag is a observance in Poland",
+    "country": "Poland",
+    "date": "2021-05-02",
+    "holiday_type":"Observance"
+  },
+  {
+    "name": "Constitution Day",
+    "description": "Constitution Day is an annual public holiday in Poland on May 3.",
+    "country": "Poland",
+    "date": "2021-05-03",
+    "holiday_type": "National holiday"
+  },
+  {
+    "name": "Whit Sunday",
+    "description": "Whit Sunday, also known as Pentecost or the Descent of the Holy Spirit (Zeslanie Ducha Swietego) is an annual public holiday in Poland 7 weeks after Easter Sunday.",
+    "country": "Poland",
+    "date":  "2021-05-23",
+    "holiday_type": "National holiday" 
+  },
+  {
+    "name": "Mother's Day",
+    "description": "Mother’s Day is celebrated in Poland on May 26 each year.",
+    "country": "Poland",
+    "date": "2021-05-26",
+    "holiday_type": "Observance"
+  }
+]

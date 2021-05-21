@@ -1,6 +1,7 @@
 database.ini
 *.pyc
 __init__.py
-*.json
+launch.json
+settings.json
 training/*
 ETL_workspace*
