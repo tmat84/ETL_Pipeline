@@ -3,7 +3,7 @@ import pytest
 from database.engine import postgresEngine
 
 
-@pytest.xfail(reason="“Using TDD,is not implemented")
+@pytest.mark.xfail(reason="“Using TDD,is not implemented")
 def test_connection(params):
     """Check the connection to local database """
     with postgresEngine(**params) as db:
